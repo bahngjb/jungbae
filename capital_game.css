@@ -1,0 +1,60 @@
+body {
+    background-color: #eee;
+}
+
+table th {
+    text-align: center;
+    border-bottom: 2px solid black
+}
+
+table {
+    min-width: 450px;
+    
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.input {
+    width:93%;
+}
+
+.button {
+    width:93%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    padding: 4px;
+    border-bottom: 1px solid #808080;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+div h1, h3, th {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+#empty {
+    text-align: center;
+}
+
+.ui-autocomplete { max-height: 250px; overflow-y: auto; overflow-x: hidden;}
+
+#options {
+    margin-bottom: 5px;
+}
